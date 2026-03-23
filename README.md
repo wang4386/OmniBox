@@ -143,7 +143,7 @@ OmniBox 是一个基于 Cloudflare Workers 构建的通用 Web 代理服务，�
 class ProxyLocation {
   get href() { return original_website_url_str; }
   set href(url) { this.originalLocation.href = changeURL(url); }
-  // ... 其他属性
+  // ... 
 }
 ```
 
